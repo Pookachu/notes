@@ -1,0 +1,7 @@
+{
+  "nativeMenus": false,
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "theme-overide"
+  ]
+}

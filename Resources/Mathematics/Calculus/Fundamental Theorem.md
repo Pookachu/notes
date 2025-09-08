@@ -1,0 +1,1 @@
+[[Integral|Integration]] and [[Derivative|Differentiation]] are inverse operations.

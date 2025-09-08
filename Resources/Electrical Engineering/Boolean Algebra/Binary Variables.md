@@ -1,0 +1,1 @@
+$x$ can be a variable, whose value is either 1 or 0.

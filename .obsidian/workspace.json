@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "f64cff22c3e24f80",
+    "type": "split",
+    "children": [
+      {
+        "id": "6da6d3a97ca418c9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf3f419db55afec7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/COMM - Homework/Speech 1 - Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Speech 1 - Introduction"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5261776c4f1dce2a",
+    "type": "split",
+    "children": [
+      {
+        "id": "266679cdbddfec5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1448c3f68ba5ada",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "2a67e6cd40aec926",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "polynomial",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6528e9e50257c015",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5
+  },
+  "right": {
+    "id": "8d07e22d50964801",
+    "type": "split",
+    "children": [
+      {
+        "id": "47b5b8fa723d9580",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "52498ce846017c51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Resources/Mathematics/Trigonometry/Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Overview"
+            }
+          },
+          {
+            "id": "e5266f549d79fc01",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Resources/Mathematics/Trigonometry/Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Overview"
+            }
+          },
+          {
+            "id": "b2e8322509373709",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "55e7c22d545351ff",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Meta/Syllabus.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Syllabus"
+            }
+          },
+          {
+            "id": "51219bc6cffb3fcd",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "cf3f419db55afec7",
+  "lastOpenFiles": [
+    "Projects/Calc 1 - Homework/2025-09-04.md",
+    "Projects/COMM - Homework/Speech 1 - Introduction.md",
+    "Projects/COMM - Homework/Untitled",
+    "Resources/Mathematics/Algebra/Difference Quotient.md",
+    "Resources/Mathematics/Calculus/Derivative.md",
+    "Resources/Mathematics/Calculus/Continuity.md",
+    "Resources/Mathematics/Calculus/Limit.md",
+    "Resources/Mathematics/Calculus/Integral.md",
+    "Resources/Mathematics/Calculus/Fundamental Theorem.md",
+    "Projects/Calc 1 - Homework/2.1 Homework.md",
+    "Resources/Mathematics/Algebra/Function Generalizations/Linear Function.md",
+    "Resources/Mathematics/Algebra/Function Generalizations/Linear equations.md",
+    "Resources/Electrical Engineering/Boolean Algebra",
+    "Excalidraw/Drawing 2025-09-05 12.30.01.excalidraw.md",
+    "Resources/Computer Science/Algorithms/Integer Factorization/Trial Division.md",
+    "Resources/Computer Science/Algorithms/Integer Factorization/General Number Field Sieve.md",
+    "Projects/EE - Homework/EE-2025-09-15-25.md",
+    "Resources/Mathematics/Calculus/Overview.md",
+    "Resources/Computer Science/Paradigms/Data-Oriented.md",
+    "Resources/Computer Science/Paradigms/Functional.md",
+    "Resources/Computer Science/Data Structures/Linked List.md",
+    "Resources/Computer Science/Data Structures/Queue.md",
+    "Resources/Computer Science/Data Structures/Hash Table.md",
+    "Resources/Computer Science/Data Structures/Array.md",
+    "Projects/Calc 1 - Homework/Algebra & Pre-Calc Review.md",
+    "Projects/COMM - Homework",
+    "Resources/Mathematics/Trigonometry/Overview.md",
+    "Projects/EE - Homework/EE-2025-08-29.md",
+    "Projects/CS - Homework/CS-2025-08-27.md",
+    "Excalidraw",
+    "Attachments/Right Triangle Diagram.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "Projects/CS - Homework",
+    "Projects/Calc 1 - Homework",
+    "Projects/EE - Homework",
+    "Areas/Calc 1",
+    "Areas/EE - Digital Logic",
+    "Areas/CS - OOP in Java"
+  ]
+}
