@@ -4,3 +4,8 @@ aliases:
 tags:
   - trigonometric-function
 ---
+adjacent / opposite
+
+[[Reciprocal]] of [[Tangent]] 
+
+Cosine / Sine

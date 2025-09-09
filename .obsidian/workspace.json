@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Calc 1 - Homework/2.1 Homework.md",
+                "file": "Resources/Mathematics/Trigonometry/Main functions/Secant.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.1 Homework"
+              "title": "Secant"
             }
           }
         ]
@@ -181,6 +181,13 @@
   },
   "active": "cf3f419db55afec7",
   "lastOpenFiles": [
+    "Resources/Mathematics/Trigonometry/Main functions/Tangent.md",
+    "Resources/Mathematics/Trigonometry/Main functions/Cosecant.md",
+    "Resources/Mathematics/Trigonometry/Main functions/Cosine.md",
+    "Resources/Mathematics/Trigonometry/Main functions/Cotangent.md",
+    "Resources/Mathematics/Trigonometry/Main functions/Secant.md",
+    "Resources/Mathematics/Trigonometry/Main functions/Sine.md",
+    "Projects/Calc 1 - Homework/2.1 Homework.md",
     "Projects/Calc 1 - Homework/2025-09-04.md",
     "Projects/Calc 1 - Homework/Algebra & Pre-Calc Review.md",
     "Projects/COMM - Homework/Speech 1 - Introduction.md",
@@ -191,7 +198,6 @@
     "Resources/Mathematics/Calculus/Limit.md",
     "Resources/Mathematics/Calculus/Integral.md",
     "Resources/Mathematics/Calculus/Fundamental Theorem.md",
-    "Projects/Calc 1 - Homework/2.1 Homework.md",
     "Resources/Mathematics/Algebra/Function Generalizations/Linear Function.md",
     "Resources/Mathematics/Algebra/Function Generalizations/Linear equations.md",
     "Resources/Electrical Engineering/Boolean Algebra",
@@ -203,13 +209,7 @@
     "Resources/Computer Science/Paradigms/Data-Oriented.md",
     "Resources/Computer Science/Paradigms/Functional.md",
     "Resources/Computer Science/Data Structures/Linked List.md",
-    "Resources/Computer Science/Data Structures/Queue.md",
-    "Resources/Computer Science/Data Structures/Hash Table.md",
-    "Resources/Computer Science/Data Structures/Array.md",
     "Projects/COMM - Homework",
-    "Resources/Mathematics/Trigonometry/Overview.md",
-    "Projects/EE - Homework/EE-2025-08-29.md",
-    "Projects/CS - Homework/CS-2025-08-27.md",
     "Excalidraw",
     "Attachments/Right Triangle Diagram.png",
     "Untitled 1.canvas",

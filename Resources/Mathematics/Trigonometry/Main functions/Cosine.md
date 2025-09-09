@@ -4,3 +4,5 @@ aliases:
 tags:
   - trigonometric-function
 ---
+Adjacent / Hypotenuse
+
