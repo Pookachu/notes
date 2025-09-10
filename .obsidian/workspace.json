@@ -11,14 +11,12 @@
             "id": "cf3f419db55afec7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Resources/Mathematics/Calculus/Derivative.md",
-                "mode": "source",
-                "source": false
+                "file": "Attachments/Right Triangle Diagram.png"
               },
-              "icon": "lucide-file",
-              "title": "Derivative"
+              "icon": "lucide-image",
+              "title": "Right Triangle Diagram"
             }
           }
         ]
@@ -179,16 +177,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf3f419db55afec7",
+  "active": "c1448c3f68ba5ada",
   "lastOpenFiles": [
+    "Resources/Mathematics/Calculus/Continuity.md",
+    "Resources/Mathematics/Calculus/Derivative.md",
     "Resources/Mathematics/Calculus/Tangent line.md",
     "Attachments/Tangent and Secant Line.png",
     "Resources/Mathematics/Calculus/Fundamental Theorem.md",
     "Attachments/Tangent and Secant Line.png~",
     "Attachments/Right Triangle Diagram.png",
-    "Resources/Mathematics/Calculus/Derivative.md",
     "Attachments/Pasted image 20250910131000.png",
-    "Resources/Mathematics/Calculus/Continuity.md",
     "Resources/Mathematics/Trigonometry/Main functions/Cosecant.md",
     "Projects/CS - Homework/CS-2025-08-27.md",
     "Projects/Calc 1 - Homework/Algebra & Pre-Calc Review.md",
