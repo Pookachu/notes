@@ -11,12 +11,14 @@
             "id": "cf3f419db55afec7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Attachments/Right Triangle Diagram.png"
+                "file": "Projects/EE - Homework/EE-2025-09-15-25.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Right Triangle Diagram"
+              "icon": "lucide-file",
+              "title": "EE-2025-09-15-25"
             }
           }
         ]
@@ -177,15 +179,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1448c3f68ba5ada",
+  "active": "cf3f419db55afec7",
   "lastOpenFiles": [
+    "Projects/EE - Homework/EE-2025-08-29.md",
+    "Attachments/Right Triangle Diagram.png",
     "Resources/Mathematics/Calculus/Continuity.md",
     "Resources/Mathematics/Calculus/Derivative.md",
     "Resources/Mathematics/Calculus/Tangent line.md",
     "Attachments/Tangent and Secant Line.png",
     "Resources/Mathematics/Calculus/Fundamental Theorem.md",
     "Attachments/Tangent and Secant Line.png~",
-    "Attachments/Right Triangle Diagram.png",
     "Attachments/Pasted image 20250910131000.png",
     "Resources/Mathematics/Trigonometry/Main functions/Cosecant.md",
     "Projects/CS - Homework/CS-2025-08-27.md",
@@ -210,7 +213,6 @@
     "Resources/Computer Science/Algorithms/Integer Factorization/General Number Field Sieve.md",
     "Projects/EE - Homework/EE-2025-09-15-25.md",
     "Resources/Mathematics/Calculus/Overview.md",
-    "Resources/Computer Science/Paradigms/Data-Oriented.md",
     "Projects/COMM - Homework",
     "Excalidraw",
     "Untitled 1.canvas",
