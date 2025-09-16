@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "73803165a396cc1a",
+        "id": "6e3667033c7c3d98",
         "type": "tabs",
         "children": [
           {
-            "id": "cefd27a580833d54",
+            "id": "9a39f40fc1583378",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "2.5 interactive assignment"
             }
           }
         ]
@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2.5 interactive assignment"
             }
           },
           {
@@ -112,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from 2.5 interactive assignment"
             }
           },
           {
@@ -140,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2.5 interactive assignment"
             }
           },
           {
@@ -178,6 +181,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cefd27a580833d54",
+  "active": "9a39f40fc1583378",
   "lastOpenFiles": []
 }
