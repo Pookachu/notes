@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
+                "file": "Resources/Mathematics/Calculus/Limit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.5 interactive assignment"
+              "title": "Limit"
             }
           }
         ]
@@ -182,5 +182,17 @@
     }
   },
   "active": "9a39f40fc1583378",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Resources/Mathematics/Calculus/Continuity.md",
+    "Resources/Mathematics/Calculus/Derivative.md",
+    "Resources/Mathematics/Calculus/Integral.md",
+    "Resources/Computer Science/Data Structures/Array.md",
+    "Attachments/Tangent and Secant Line.png",
+    "Projects/Calc 1 - Homework/2.1-2.2 Homework & Practice.md",
+    "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
+    "Projects/Calc 1 - Homework/2025-09-04.md",
+    "Projects/CS - Homework/CS-2025-08-27.md",
+    "Resources/Mathematics/Calculus/Fundamental Theorem.md",
+    "Resources/Electrical Engineering/Logic gates/Logic Gates MOC.md"
+  ]
 }

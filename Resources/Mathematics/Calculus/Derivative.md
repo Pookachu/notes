@@ -45,3 +45,4 @@ $$f'(x)=\lim_{h\to0}\frac{f(x+h)-f(x)}{h}$$
 	- If $f'(x) > 0$ on an interval, then $f(x)$ is **increasing** on that interval.
 	- If $f'(x) < 0$ on an interval, then $f(x)$ is **decreasing** on that interval.
 	- if $f'(x) = 0$, the function has a **[[critical point]]** (a potential local maximum, minimum, or saddle point).
+
