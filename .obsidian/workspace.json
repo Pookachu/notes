@@ -11,14 +11,14 @@
             "id": "9a39f40fc1583378",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Projects/CS - Homework/Exam 1 Practice Questions.md",
-                "mode": "source",
-                "source": false
+                "aFile": "2025-09-22.md",
+                "bFile": "2025-09-22.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Exam 1 Practice Questions"
+              "icon": "diff",
+              "title": "Diff: 2025-09-22"
             }
           }
         ]
@@ -183,8 +183,9 @@
   },
   "active": "9a39f40fc1583378",
   "lastOpenFiles": [
-    "Resources/Mathematics/Calculus/Limit.md",
+    "2025-09-22.md",
     "Projects/CS - Homework/Exam 1 Practice Questions.md",
+    "Resources/Mathematics/Calculus/Limit.md",
     "Resources/Mathematics/Calculus/Continuity.md",
     "Resources/Mathematics/Calculus/Derivative.md",
     "Resources/Mathematics/Calculus/Integral.md",
