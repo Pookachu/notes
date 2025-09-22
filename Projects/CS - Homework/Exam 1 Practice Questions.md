@@ -38,10 +38,14 @@ public static main(string[] args) {
 
 **JDK**: The **J**ava **D**evelopment **K**it contains tools and libraries for developers writing Java programs. It has debuggers, compilers and documentation generation tools.
 
-**JVM**: The **J**ava **V**irtual **M**achine actually processes Java programs 
+**JVM**: The **J**ava **V**irtual **M**achine actually processes Java programs. It takes in java bytecode that's created by the java compiler and translates the java bytecode into architecture specific CPU instructions.
 
 4. **What is a compiler? What does it do?**
+The java compiler converts human readable java code into java bytecode that a JVM can run.
+Generally, compilers convert the human readable code into machine code that a computer can execute.
+
 5. **What does it mean Write-once Run-Everywhere?**
+
 6. **Explain the Von Neumann architecture.**
 7. **Write down a simple Java program that prints a message to the command line.**
 8. **What is the difference between declaring and initializing a variable in Java?**
