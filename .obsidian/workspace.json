@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Mathematics/Calculus/Limit.md",
+                "file": "Projects/CS - Homework/Exam 1 Practice Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Limit"
+              "title": "Exam 1 Practice Questions"
             }
           }
         ]
@@ -183,6 +183,8 @@
   },
   "active": "9a39f40fc1583378",
   "lastOpenFiles": [
+    "Resources/Mathematics/Calculus/Limit.md",
+    "Projects/CS - Homework/Exam 1 Practice Questions.md",
     "Resources/Mathematics/Calculus/Continuity.md",
     "Resources/Mathematics/Calculus/Derivative.md",
     "Resources/Mathematics/Calculus/Integral.md",
