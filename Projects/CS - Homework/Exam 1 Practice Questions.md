@@ -234,48 +234,149 @@ public class Box {
 
 17. **What is the difference between private and public attributes/methods? Show code**
 **examples.**
-18. **What are the other two access modifiers of Java besides public and private?**
-19. **Why is it recommended to declare all attributes of a class private?**
-20. **What is the purpose of the toString() method? What is its signature (return type and**
-**inputs)?**
-21. **Show a Java example of a Class having a custom toString() method.**
-22. **When is the toString() method called?**
-23. **What is the Java convention for naming a Class? Show examples of class names**
+
+Private attributes/methods can ONLY be accessed by the object that owns it.
+Public attributes/methods can be accessed anywhere from anything.
+
+**Public example:**
+```java
+public class Box {
+	public int size;
+}
+
+public class Main {
+	public static void Main(String[] args) {
+		Box myBox = new Box(); 
+		myBox.size = 10; // I can change it from anywhere because it's public
+	}
+}
+```
+**Private example:**
+```java
+public class Box {
+	private int size;
+}
+
+public class Main {
+	public static void Main(String[] args) {
+		Box myBox = new Box(); 
+		myBox.size = 10; // This DOES NOT WORK anymore!!! 
+	}
+}
+```
+17. **What are the other two access modifiers of Java besides public and private?**
+	`Static` and `protected`. 
+
+18. **Why is it recommended to declare all attributes of a class private?**
+	This ensures that other parts of the program don't just change stuff willy nilly and your data is always being protected through setters which might have some logic to ensure that the values make sense for your object. 
+	
+	An example is a rectangle object with a width setter. You can't have a negative width, so the setter method would make sure that the width isn't negative or it won't actually change the value. If it was public there's nothing protecting the sanity of your object's attributes.
+
+18. **What is the purpose of the toString() method? What is its signature (return type and inputs)?**
+	The `toString()` method is special because if an object has it defined it will return that when you implicitly cast the object to a string.
+
+19. **Show a Java example of a Class having a custom toString() method.**
+```java
+public class Box {
+	private int height;
+	private int width;
+	
+	public Box(int height, int width) {
+		this.height = height;
+		this.width = width;
+	}
+	
+	public String toString() {
+	// Uses string concatenation (Adding Strings with the + symbol) to make one big String.
+	return "Height: " + this.height "\n" + // \n means new line!
+			"Width: " + this.width;
+	}
+}
+```
+
+19. **When is the toString() method called?**
+	When you implicitly cast the object to a String.
+Example: 
+```java
+// the above box object is also here
+public static main(String[] args) {
+	Box myBox = new Box(10, 20); // Make a new box
+	System.out.println(myBox); // Print the box!
+	
+	//Outputs the height and width of the box
+}
+```
+
+19. **What is the Java convention for naming a Class? Show examples of class names**
 **following the convention and others that do not.**
-24. **What is the Java convention for naming variables? Show examples of variable names**
-**following the convention and others that do not.**
-25. **What is the requirement that Java makes regarding the name of the file and the name of**
-**a class contained in it? Explain with an example.**
-26. **What is a static function? Write Java code showing how to call a static function.**
-27. **What is a non-static function? Write Java code showing how to call a non-static function.**
-28. **What does it mean to instantiate an object? Write down code showing how to instantiate**
+PascalCase. The first letter is capitalized, as well as the first letter of every word in the object.
+
+**Good examples:**
+- Cat
+- DogThatBarks
+- EvilCelery
+
+**Bad Examples:**
+- cat
+- dogthat_barks
+- evil-Celery
+
+20. **What is the Java convention for naming variables? Show examples of variable names following the convention and others that do not.**
+camelCase: The same as PascalCase except the first letter isn't capitalized.
+
+**Good Examples:**
+- myCat
+- georgeTheMechanic
+- example
+
+**Bad Examples:**
+- my_cat
+- Georgethemechanic
+- EXAMPLE
+
+21. **What is the requirement that Java makes regarding the name of the file and the name of a class contained in it? Explain with an example.**
+They must be the same
+
+Example:
+```java
+// Car.java file name
+public Car {
+//...
+}
+```
+
+22. **What is a static function? Write Java code showing how to call a static function.**
+
+
+23. **What is a non-static function? Write Java code showing how to call a non-static function.**
+24. **What does it mean to instantiate an object? Write down code showing how to instantiate**
 **an object.**
-29. **What is the heap?**
-30. **What does the heap store? Write down code showing something stored in the heap.**
-31. **What is the call stack?**
-32. **What is the purpose of the call stack?**
-33. **What is a stack frame? Show an example.**
-34. **Does each function get a frack frame? True or false? Explain.**
-35. **What does the call stack store? Write down code showing something stored in the stack.**
-36. **Trace the evolution of the call stack during the execution of the Fibonacci function when**
+25. **What is the heap?**
+26. **What does the heap store? Write down code showing something stored in the heap.**
+27. **What is the call stack?**
+28. **What is the purpose of the call stack?**
+29. **What is a stack frame? Show an example.**
+30. **Does each function get a frack frame? True or false? Explain.**
+31. **What does the call stack store? Write down code showing something stored in the stack.**
+32. **Trace the evolution of the call stack during the execution of the Fibonacci function when**
 **called as fib(3), as seen in class.**
-37. **Explain step by step what happens when you run the Java statement:**
+33. **Explain step by step what happens when you run the Java statement:**
 **Mechanic m = new Mechanic(“Leal”);**
 **Assuming that Mechanic is a class with a name attribute and that the above statement is**
 **correctly placed inside a main function in a class.**
-38. **Write code that creates a single-dimensional array of int in Java and initializes it with the**
+34. **Write code that creates a single-dimensional array of int in Java and initializes it with the**
 **{2,3,8} list.**
-39. **Write code that creates a single-dimensional array of int in Java and initializes it with a**
+35. **Write code that creates a single-dimensional array of int in Java and initializes it with a**
 **for loop.**
-40. **Write code that creates a single-dimensional array of Mechanic in Java and initializes**
+36. **Write code that creates a single-dimensional array of Mechanic in Java and initializes**
 **each entry in that array. The class Mechanic should have name and rank attributes.**
-41. **Explain with a concrete Java example the Single Responsibility Principle (SRP). Show a**
+37. **Explain with a concrete Java example the Single Responsibility Principle (SRP). Show a**
 **class that does not follow it, explain why it doesn’t follow it, and explain how to modify it**
 **to respect SRP.**
-42. **What is a debugger? What can you do with it?**
-43. **What is Git? Explain with a concrete example some of the features it offers.**
-44. **Explain step-by-step the basic workflow for using Git.**
-45. **What is a commit in Git?**
-46. **What is a Git repository?**
-47. **Why is it important to learn to use Git?**
-48. **What is the purpose of Javadoc? Show an example class that uses Javadoc.**
+38. **What is a debugger? What can you do with it?**
+39. **What is Git? Explain with a concrete example some of the features it offers.**
+40. **Explain step-by-step the basic workflow for using Git.**
+41. **What is a commit in Git?**
+42. **What is a Git repository?**
+43. **Why is it important to learn to use Git?**
+44. **What is the purpose of Javadoc? Show an example class that uses Javadoc.**
