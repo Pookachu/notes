@@ -376,31 +376,175 @@ See above for an example.
 "Instantiate an object" means to make an instance of a class. It calls the constructor, and makes space for and then fills out the attributes of the object in the heap.
 
 25. **What is the heap?**
-26. **What does the heap store? Write down code showing something stored in the heap.**
-27. **What is the call stack?**
-28. **What is the purpose of the call stack?**
-29. **What is a stack frame? Show an example.**
-30. **Does each function get a frack frame? True or false? Explain.**
-31. **What does the call stack store? Write down code showing something stored in the stack.**
-32. **Trace the evolution of the call stack during the execution of the Fibonacci function when**
-**called as fib(3), as seen in class.**
-33. **Explain step by step what happens when you run the Java statement:**
-**Mechanic m = new Mechanic(“Leal”);**
-**Assuming that Mechanic is a class with a name attribute and that the above statement is**
-**correctly placed inside a main function in a class.**
-34. **Write code that creates a single-dimensional array of int in Java and initializes it with the**
-**{2,3,8} list.**
-35. **Write code that creates a single-dimensional array of int in Java and initializes it with a**
-**for loop.**
-36. **Write code that creates a single-dimensional array of Mechanic in Java and initializes**
-**each entry in that array. The class Mechanic should have name and rank attributes.**
-37. **Explain with a concrete Java example the Single Responsibility Principle (SRP). Show a**
-**class that does not follow it, explain why it doesn’t follow it, and explain how to modify it**
-**to respect SRP.**
-38. **What is a debugger? What can you do with it?**
-39. **What is Git? Explain with a concrete example some of the features it offers.**
-40. **Explain step-by-step the basic workflow for using Git.**
-41. **What is a commit in Git?**
-42. **What is a Git repository?**
-43. **Why is it important to learn to use Git?**
-44. **What is the purpose of Javadoc? Show an example class that uses Javadoc.**
+A random space the computer found to remember stuff for your program. It is DYNAMIC MEMORY ALLOCATION. 
+- Unlike the stack, which is used for local variables and function calls and is automatically managed, heap memory allows programs to request and release memory blocks of varying sizes as needed at runtime.
+
+
+25. **What does the heap store? Write down code showing something stored in the heap.**
+Anything that the program doesn't know the size of before it starts running. ALL objects are stored on the heap, and anything with a size that can change will be stored on the heap.
+
+26. **What is the call stack?**
+A call stack is individual stacks from different function calls that expands downwards in computer memory to store all the SIZED variables the computer knows it will need when the function runs.
+
+27. **What is the purpose of the call stack?**
+To store variables the computer knows the size of beforehand easily and quickly.
+
+28. **What is a stack frame? Show an example.**
+
+| Function Name | Values                                                                                                 |
+| ------------- | ------------------------------------------------------------------------------------------------------ |
+| main          | int n = 3<br>int n2 = 4                                                                                |
+| function1     | float val = 3.14<br>float 2pi = 6.2.8<br>                                                              |
+| function3     | String = (Memory address to heap space) <br>String2 = (Another memory address to different heap space) |
+
+29. **Does each function get a frack frame? True or false? Explain.**
+Yes.
+- Each function (method) usage receives its own stack frame. A stack frame, also known as an activation record, is a data structure created by the JVM that contains the state of a single method call.
+
+30. **What does the call stack store? Write down code showing something stored in the stack.**
+The call stack stores all the variables the computer knows the size of before hand, such as ints and floats and booleans for a function.
+
+31. **Trace the evolution of the call stack during the execution of the Fibonacci function when called as fib(3), as seen in class.**
+
+| Function names | Variables                                             |
+| -------------- | ----------------------------------------------------- |
+| Main           |                                                       |
+| Fib(3)         | int n = 3<br>int prev1 = fib(2)<br>int prev2 = fib(1) |
+| fib(2)         | int n = 2<br>int prev1 = fib(1)<br>int prev2 = fib(0) |
+| fib(1) -> 1    | int n = 1                                             |
+| fib(0) -> 0    | int n = 0                                             |
+| fib(1) -> 1    | int n = 1                                             |
+
+32. **Explain step by step what happens when you run the Java statement:**
+`Mechanic m = new Mechanic(“Leal”);` **Assuming that Mechanic is a class with a name attribute and that the above statement is correctly placed inside a main function in a class.**
+- The program executes the constructor for Mechanic, which requests heap space from the computer to store the new Mechanic object with space for a name and any other object attributes the object contains.
+  - The constructor also initializes the new Mechanic's name attribute with "Leal."
+  - The constructor then returns the memory address of the heap space that contains the new mechanic Object and stores it in "m."
+
+32. **Write code that creates a single-dimensional array of int in Java and initializes it with the {2,3,8} list.**
+```java
+public class Main {
+	public static void main(String[] args) {
+		int[] numbers = {2,3,8};
+	}
+}
+```
+
+33. **Write code that creates a single-dimensional array of int in Java and initializes it with a for loop.**
+```java
+public class Main {  
+    public static void main(String[] args) {  
+        int[] numbers = new int[5];  // Gets the space for 5 new integers from the heap
+        
+        
+        for(int i = 0; i < numbers.length; i++) {  // Iterates over each array slot
+            numbers[i] = i*i; // Fills it with it's position squared 
+        }
+        // Numbers now has {0, 1, 4, 9, 16}
+    }  
+}
+```
+
+34. **Write code that creates a single-dimensional array of Mechanic in Java and initializes each entry in that array. The class Mechanic should have name and rank attributes.**
+```java
+public class Mechanic {
+	private final String name;
+	public Mechanic(String name) {
+		this.name = name;
+	}
+}
+
+public class Main {
+	public static void main(String[] args) {
+		Mechanic[] mechanicArray = {
+			new Mechanic("Leal"),
+			new Mechanic("Ethan"),
+			new Mechanic("Bob")
+		};
+	}
+}
+```
+
+35. **Explain with a concrete Java example the Single Responsibility Principle (SRP). Show a class that does not follow it, explain why it doesn’t follow it, and explain how to modify it to respect SRP.**
+BAD example:
+```java
+public class BankAccount {
+	private float funds;
+	private float interestRate;
+	private String owner;
+	
+	public BankAccount(float funds, float interestRate, String owner) {
+		this.funds = funds;
+		this.interestRate = interestRate;
+		this.owner = owner;
+	}
+	
+	public void openBank() {
+	//... Unlocks the banks doors and turns the lights on
+	}
+	public void closeBank() {
+	//... Locks the doors and turns the lights off
+	}
+	public void payEmployees() {
+	//.. Pays all employees of the bank
+	}
+}
+```
+
+Good example:
+```java
+public class BankAccount {
+	private float funds;
+	private float interestRate;
+	private String owner;
+	
+	public BankAccount(float funds, float interestRate, String owner) {
+		this.funds = funds;
+		this.interestRate = interestRate;
+		this.owner = owner;
+	}
+	
+	public float getFunds() {
+		return this.funds;
+	}
+	public float getInterestRate() {
+		return this.interestRate;	
+	}
+	public String getOwner() {
+		return this.owner;
+	}
+	public void addFunds(int newFunds){
+		this.funds = this.funds + newFunds;
+	}
+	//...
+}
+```
+
+36. **What is a debugger? What can you do with it?**
+The debugger lets you stop at different points during a program's execution and inspect the memory of the program so that you can try and find where something is going wrong.
+
+37. **What is Git? Explain with a concrete example some of the features it offers.**
+Git is a program that keeps track of files changed in a project or files deleted or added to a project. It lets you collaborate with other people by allowing different people to work on different parts of the code at the same time and eventually merge them together and have a unified version of the project.
+
+38. **Explain step-by-step the basic workflow for using Git.**
+	- Start project
+	- Initialize git repository
+	- Add all your important files to the git repository
+	- Commit to start tracking changes from that point
+	- When files are added or changed add them again and then commit them again
+
+39. **What is a commit in Git?**
+A commit is a bundle of file changes you deem important that implement a specific change or new thing. Git tracks everything BETWEEN commits. It doesn't track anything otherwise.
+
+40. **What is a Git repository?**
+- A git repository manages the commits of your project.
+- It also manages, branches, which are different versions of the project that are separate. Like a development version of the project and a stable version of the project.
+ - It also pull requests which are made when someone wants to change the code.
+
+39. **Why is it important to learn to use Git?**
+- Collaboration
+- Tracking changes in code to find when bugs were introduced and by whom.
+
+39. **What is the purpose of Javadoc? Show an example class that uses Javadoc.**
+- Javadocs is a tool that generates a website that you can use to document how your code works for other people so that they can easily get a hold of the project.
+- It uses special comments above classes/methods/variables to generate the websites.
