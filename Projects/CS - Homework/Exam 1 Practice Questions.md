@@ -346,11 +346,35 @@ public Car {
 ```
 
 22. **What is a static function? Write Java code showing how to call a static function.**
+- A static function is a method in a class that isn't attached to a specific object instance.
+- You can call a static function from anywhere (using the class name) as opposed to a normal method which MUST be called from an object. 
+```java
+public class Math {
+	public static staticSquare(double number) { // This method is static
+		return number * number;
+	}
+	public not_staticSquare(double number) { // This method is NOT static
+		return number * number;
+	}
+}
+public class Main {
+	public static main(String[] args) {
+		System.out.println("Square of 10 = " + Math.staticSquare(10)); // Using a static method
+		Math calculator = new Math(); // to use the non static one we MUST make an instance of the math class.
+		System.out.println("Square of 5 = " + calculator.not_staticSquare(5)); //Using a NOT static method. 
+		//It is called from the INSTANCE of the math we made just a moment ago.
+		
+	}
+```
 
 
 23. **What is a non-static function? Write Java code showing how to call a non-static function.**
-24. **What does it mean to instantiate an object? Write down code showing how to instantiate**
-**an object.**
+A method that is not static MUST be called from an instance of an object.
+See above for an example.
+
+24. **What does it mean to instantiate an object? Write down code showing how to instantiate an object.**
+
+
 25. **What is the heap?**
 26. **What does the heap store? Write down code showing something stored in the heap.**
 27. **What is the call stack?**
