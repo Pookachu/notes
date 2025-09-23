@@ -373,7 +373,7 @@ A method that is not static MUST be called from an instance of an object.
 See above for an example.
 
 24. **What does it mean to instantiate an object? Write down code showing how to instantiate an object.**
-
+"Instantiate an object" means to make an instance of a class. It calls the constructor, and makes space for and then fills out the attributes of the object in the heap.
 
 25. **What is the heap?**
 26. **What does the heap store? Write down code showing something stored in the heap.**
