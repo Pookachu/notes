@@ -409,8 +409,8 @@ The call stack stores all the variables the computer knows the size of before ha
 | Function names | Variables                                             |
 | -------------- | ----------------------------------------------------- |
 | Main           |                                                       |
-| Fib(3)         | int n = 3<br>int prev1 = fib(2)<br>int prev2 = fib(1) |
-| fib(2)         | int n = 2<br>int prev1 = fib(1)<br>int prev2 = fib(0) |
+| Fib(3) -> 2    | int n = 3<br>int prev1 = fib(2)<br>int prev2 = fib(1) |
+| fib(2) -> 1    | int n = 2<br>int prev1 = fib(1)<br>int prev2 = fib(0) |
 | fib(1) -> 1    | int n = 1                                             |
 | fib(0) -> 0    | int n = 0                                             |
 | fib(1) -> 1    | int n = 1                                             |
