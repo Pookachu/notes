@@ -21,5 +21,5 @@ Find the derivative of $h(x) =(x^2+5)^3$
 - Inner function: $g(x) = x^2+5$
 1. **Derivative of the inner function:** $f'(u) =3u^2 \to 3(x^2+5)^2$
 2. **Derivative of the outer function:** $g'(x)= 2x$
-3. **Multiply them together:** $h'(x) = 3(x^2+5)^2 \cdot (2x) = 6x(x^2+5)^2$
+3. **Multiply them together:** $h'(x) = 3(x^2+5)^2 \cdot (2x) = \boxed{6x(x^2+5)^2}$
 4. 
