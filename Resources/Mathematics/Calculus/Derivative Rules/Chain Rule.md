@@ -4,11 +4,9 @@
 > The rule states that you take the derivative of the **outer function** (while leaving the inner function unchanged) and then multiply it by the derivative of the **inner function**.
 
 #### Formulas:
+$$\text{Given } h(x) = f(g(x)) \text{, then:}$$
 1. **Lagrange Notation (Prime Notation):**
-$$\begin{gather}
-\text{if } h(x) = f(g(x)) \text{, then:} \\\\
-h'(x) = f'(g(x))\cdot g'(x)
-\end{gather}$$
+$$h'(x) = f'(g(x))\cdot g'(x)$$
 2. **Leibinz Notation**
 $$\begin{gather}
 \text{if $y=f(u)$ and $u=g(x)$, then the derivative of $y$ with respect to $x$ is:} \\\\
@@ -22,4 +20,3 @@ Find the derivative of $h(x) =(x^2+5)^3$
 1. **Derivative of the inner function:** $f'(u) =3u^2 \to 3(x^2+5)^2$
 2. **Derivative of the outer function:** $g'(x)= 2x$
 3. **Multiply them together:** $h'(x) = 3(x^2+5)^2 \cdot (2x) = \boxed{6x(x^2+5)^2}$
-4. 
