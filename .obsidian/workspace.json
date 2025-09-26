@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Calc 1 - Homework/3.1 interactive assignment.md",
+                "file": "Resources/Mathematics/Calculus/Derivative Rules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1 interactive assignment"
+              "title": "Derivative Rules"
             }
           }
         ]
@@ -183,11 +183,14 @@
   },
   "active": "9a39f40fc1583378",
   "lastOpenFiles": [
-    "Resources/Mathematics/Calculus/Derivative Rules/Chain Rule.md",
+    "Resources/Mathematics/Calculus/Derivative Rules/Sum Rule.md",
     "Resources/Mathematics/Calculus/Derivative Rules/Power Rule.md",
-    "Resources/Mathematics/Calculus/Untitled.md",
-    "Resources/Mathematics/Calculus/Derivative Rules",
+    "Resources/Mathematics/Calculus/Derivative Rules/Constant Rule.md",
+    "Resources/Mathematics/Calculus/Derivative Rules/Constant Multiple Rule.md",
     "Projects/Calc 1 - Homework/3.1 interactive assignment.md",
+    "Resources/Mathematics/Calculus/Derivative Rules/Chain Rule.md",
+    "Resources/Mathematics/Calculus/Derivative Rules.md",
+    "Resources/Mathematics/Calculus/Derivative Rules",
     "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
     "Projects/CS - Homework/Exam 1 Practice Questions.md",
     "Projects/CS - Homework/CS-2025-08-27.md",
