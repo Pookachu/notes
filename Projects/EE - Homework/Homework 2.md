@@ -69,20 +69,51 @@ $f = x_3 x_2 x_0 + x_3 x_1 x_0 + x_3 x_2 x_1 + x_2 x_1 x_0$
 
 3. 2.15(a,b,c)
 Use the rules of Boolean Algebra to simplify the following expressions.
-a) - $A(B+\bar A C)$
+**a)** --- $A(B+\bar A C)$
 > $= AB+A\bar A C \quad=\quad AB+0 \quad=\quad \boxed{AB}$
   
-b) - $A\overline{(A+B)} +C + \overline{(A+C})$
-> $\overline{(A+B)} = \overline{AB}$ and $\overline{(A+C)} = \overline{AC}$
->$A(\overline{AB})+C+\overline{AC} = 0\bar{B}+C+\overline{AC} = $
+**b)** --- $A\overline{(A+B)} +C + \overline{(A+C})$
+>$\to\quad \overline{(A+B)} = \overline{AB}$ and $\overline{(A+C)} = \overline{AC}$
+>$\to\quad A(\overline{AB})+C+\overline{AC} \quad=\quad 0\bar{B}+C+\overline{AC} \quad=\quad C+\overline{AC}$
+>$\to\quad \boxed{\bar{A}+C}$
 
-
-
-
-c)
+**c)** --- $X+W\bar{X}\bar{Y}$
+> $\to\quad \boxed{X+W\bar{Y}}$
 
 4. 2.15(d,e,f)
+**d)** --- $\overline{ABC}+\overline{\bar{B}\bar{C}}$
+>$\to\quad \overline{ABC} + B + C$
+>$\to\quad \bar{A} + \bar{B} + \bar{C} + B + C$
+>$\to\quad \bar{A}+1+1 \quad=\quad \boxed{1}$
+
+**e)** --- $\bar{X}Y+\bar{Y}+W(Z+\bar{W}X)$
+>$\to\quad \bar{X}Y+\bar{Y}+WZ+W\bar{W}X$
+>$\to\quad \bar{X}Y+\bar{Y} + WZ +0$
+>$\to\quad \bar{X}Y+\bar{Y} + WZ$
+>$\to\quad \boxed{\bar{X}+\bar{Y} + WZ}$
+
+**f)** --- $ab+a\bar{b}+\bar{a}\bar{b}$
+> $\to\quad (ab + a\bar{b})+(a\bar{b}+\bar{a}\bar{b})$
+> $\to\quad a(b+\bar{b})+\bar{b}(a+\bar{a})$
+> $\to\quad \boxed{a+\bar{b}}$
+
 5. 2.16
+**a)** --- $\bar{x}yz+\bar{x}y\bar{z}+xyz$
+> $\to\quad yz(x+\bar{x})+\bar{x}y\bar{z}$
+> $\to\quad yz+\bar{x}y\bar{z}$
+> $\to\quad y(z+\bar{x}\bar{z})$
+> $\to\quad y(z+\bar{x})$
+> $\to\quad \boxed{yz+y\bar{x}}$
+
+**b)** --- $\bar{A}\bar{B}\bar{C}+A\bar{B}C+ABC+AB\bar{C}$
+> $\to\quad AB(C+\bar{C})+\bar{A}\bar{B}\bar{C}+A\bar{B}C$
+> $\to\quad AB+\bar{A}\bar{B}\bar{C}+A\bar{B}C$
+> $\to\quad$
+
+**c)** --- 
+
+**d)** ---
+
 6. 3.1(a)
 7. 3.3
 8. 3.5
