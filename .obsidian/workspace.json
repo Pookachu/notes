@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
+                "file": "Projects/EE - Homework/Homework 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.2 Interactive Assignment"
+              "title": "Homework 2"
             }
           },
           {
@@ -210,18 +210,19 @@
   },
   "active": "8cae0f4f3f60a32a",
   "lastOpenFiles": [
-    "Resources/Mathematics/Calculus/Derivative Rules.md",
-    "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
     "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
+    "Projects/EE - Homework/Homework 2.md",
+    "Projects/Calc 1 - Homework/2.1-2.2 Homework & Practice.md",
+    "Projects/Calc 1 - Homework/2.6 Optional Extra.md",
+    "Projects/Calc 1 - Homework/3.1 interactive assignment.md",
     "Projects/Calc 1 - Homework/2025-09-04.md",
+    "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
+    "Resources/Mathematics/Calculus/Derivative Rules.md",
     "Projects/Calc 1 - Homework/2025-09-22.md",
     "Projects/Calc 1 - Homework/Algebra & Pre-Calc Review.md",
-    "Projects/Calc 1 - Homework/2.6 Optional Extra.md",
     "Projects/Calc 1 - Homework/2.6 interactive assignment.md",
     "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
-    "Projects/Calc 1 - Homework/2.1-2.2 Homework & Practice.md",
     "Resources/Mathematics/Calculus/Chain Rule.md",
-    "Projects/Calc 1 - Homework/3.1 interactive assignment.md",
     "[Chain Rule.md",
     "Projects/Calc 1 - Homework/Quiz 4.md",
     "Projects/CS - Homework/Exam 1 Practice Questions.md",
@@ -239,7 +240,6 @@
     "Resources/Mathematics/Trigonometry/Main functions/Tangent.md",
     "Resources/Mathematics/Trigonometry/Main functions/Cosine.md",
     "Resources/Mathematics/Trigonometry/Main functions/Cotangent.md",
-    "Resources/Mathematics/Trigonometry/Main functions/Sine.md",
     "Projects/COMM - Homework/Untitled",
     "Resources/Electrical Engineering/Boolean Algebra",
     "Projects/COMM - Homework",
