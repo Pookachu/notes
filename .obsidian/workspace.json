@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Calc 1 - Homework/3.1 interactive assignment.md",
+                "file": "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.1 interactive assignment"
+              "title": "3.2 Interactive Assignment"
             }
           },
           {
@@ -195,8 +195,9 @@
   },
   "active": "0c91ed5f728ab6cc",
   "lastOpenFiles": [
-    "Resources/Mathematics/Calculus/Chain Rule.md",
     "Projects/Calc 1 - Homework/3.1 interactive assignment.md",
+    "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
+    "Resources/Mathematics/Calculus/Chain Rule.md",
     "[Chain Rule.md",
     "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
     "Resources/Mathematics/Calculus/Derivative Rules.md",
@@ -224,7 +225,6 @@
     "Resources/Mathematics/Trigonometry/Main functions/Cosine.md",
     "Resources/Mathematics/Trigonometry/Main functions/Cotangent.md",
     "Resources/Mathematics/Trigonometry/Main functions/Sine.md",
-    "Projects/COMM - Homework/Speech 1 - Introduction.md",
     "Projects/COMM - Homework/Untitled",
     "Resources/Electrical Engineering/Boolean Algebra",
     "Projects/COMM - Homework",
