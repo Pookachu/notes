@@ -108,14 +108,53 @@ Use the rules of Boolean Algebra to simplify the following expressions.
 **b)** --- $\bar{A}\bar{B}\bar{C}+A\bar{B}C+ABC+AB\bar{C}$
 > $\to\quad AB(C+\bar{C})+\bar{A}\bar{B}\bar{C}+A\bar{B}C$
 > $\to\quad AB+\bar{A}\bar{B}\bar{C}+A\bar{B}C$
-> $\to\quad$
+> $\to\quad \boxed{AB+\bar{A}\bar{B}\bar{C}+AC}$ (consensus term)
 
-**c)** --- 
+**c)** --- $\bar{A}\bar{B}C+\bar{A}B\bar{C}+A\bar{B}C+AB\bar{C}$
+> $\to\quad B\bar C(\bar A +A)+\bar A\bar BC+A\bar BC$
+> $\to\quad B\bar C+\bar A\bar BC+A\bar BC$
+> $\to\quad B\bar C+\bar BC(\bar A+A)$
+> $\to\quad \boxed{B\bar C+\bar BC}$
 
-**d)** ---
+**d)** --- $\bar A\bar B\bar CD+\bar AB\bar C\bar D+AB\bar C\bar D+\bar AB\bar CD+AB\bar CD+ABCD$
+        1              2                   3                  4                  5                  6
+		5 6                        2 3                      1 4
+> $\to\quad ABD(\bar CC) +B\bar C\bar D(\bar AA)+\bar A\bar CD(B\bar B)$
+> $\to\quad ABD+B\bar C\bar D+\bar A\bar CD$
 
 6. 3.1(a)
-7. 3.3
-8. 3.5
-9. 3.17(assume F(a,b,c))
-10. 3.21 (just draw the truth table and write as a sum of minterms)
+a) $F(a, b, c) = ab+a\bar c(b+\bar c)$
+
+| $a$ | $b$ | $c$ |     | $ab$ | $b+\bar c$ | $a\bar c$ | $a\bar c(b+\bar c)$ | $F$ |
+| --- | --- | --- | --- | ---- | ---------- | --------- | ------------------- | --- |
+| $0$ | $0$ | $0$ |     | $0$  | $1$        | $0$       | $0$                 | $0$ |
+| $0$ | $0$ | $1$ |     | $0$  | $0$        | $0$       | $0$                 | $0$ |
+| $0$ | $1$ | $0$ |     | $0$  | $1$        | $0$       | $0$                 | $0$ |
+| $0$ | $1$ | $1$ |     | $0$  | $1$        | $0$       | $0$                 | $0$ |
+| $1$ | $0$ | $0$ |     | $0$  | $1$        | $1$       | $1$                 | $1$ |
+| $1$ | $0$ | $1$ |     | $0$  | $0$        | $0$       | $0$                 | $0$ |
+| $1$ | $1$ | $0$ |     | $1$  | $1$        | $1$       | $1$                 | $1$ |
+| $1$ | $1$ | $1$ |     | $1$  | $1$        | $0$       | $0$                 | $1$ |
+
+$\Sigma_m = a\bar b\bar c+ab\bar c+abc$
+$\Pi_M = (a+b+c)(a+b+\bar c)(a+\bar b+c)(a+\bar b\bar c)(\bar a\bar bc)$
+
+6. 3.3
+Give the canonical SOP form of the logic function $F(A, B, C) = \Sigma_M (1, 2, 5, 6, 7)$
+
+| $a$ | $b$ | $c$ |     | F   |
+| --- | --- | --- | --- | --- |
+| $0$ | $0$ | $0$ |     | 0   |
+| $0$ | $0$ | $1$ |     | 1   |
+| $0$ | $1$ | $0$ |     | 1   |
+| $0$ | $1$ | $1$ |     | 0   |
+| $1$ | $0$ | $0$ |     | 0   |
+| $1$ | $0$ | $1$ |     | 1   |
+| $1$ | $1$ | $0$ |     | 1   |
+| $1$ | $1$ | $1$ |     | 1   |
+
+$\Sigma_m = \bar a\bar bc+\bar ab\bar c+a\bar bc+ab\bar c+abc$
+
+7. 3.5
+8. 3.17(assume F(a,b,c))
+9. 3.21 (just draw the truth table and write as a sum of minterms)
