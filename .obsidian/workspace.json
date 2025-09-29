@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c039cbbd0c278a1a",
+        "id": "f49091c8516f956a",
         "type": "tabs",
         "children": [
           {
-            "id": "ba9c654ec5005935",
+            "id": "298bf218d5f0434a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Mathematics/Calculus/Chain Rule.md",
+                "file": "Projects/CS - Homework/Exam 1 Practice Questions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chain Rule"
+              "title": "Exam 1 Practice Questions"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Mathematics/Calculus/Chain Rule.md",
+                "file": "Projects/CS - Homework/Exam 1 Practice Questions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chain Rule"
+              "title": "Outline of Exam 1 Practice Questions"
             }
           },
           {
@@ -181,8 +181,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba9c654ec5005935",
+  "active": "8c024fa428030215",
   "lastOpenFiles": [
+    "2025-09-26.md",
+    "Projects/Calc 1 - Homework/Untitled.md",
+    "Resources/Mathematics/Trigonometry/Trig Overview.md",
     "Resources/Mathematics/Calculus/Derivative Rules.md",
     "Resources/Mathematics/Calculus/Chain Rule.md",
     "Resources/Mathematics/Calculus/Untitled",
@@ -208,8 +211,6 @@
     "Attachments/Tangent and Secant Line.png",
     "Projects/Calc 1 - Homework/2.1-2.2 Homework & Practice.md",
     "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
-    "Projects/Calc 1 - Homework/2025-09-04.md",
-    "Resources/Mathematics/Calculus/Fundamental Theorem.md",
-    "Resources/Electrical Engineering/Logic gates/Logic Gates MOC.md"
+    "Projects/Calc 1 - Homework/2025-09-04.md"
   ]
 }

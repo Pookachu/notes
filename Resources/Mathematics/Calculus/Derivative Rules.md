@@ -1,6 +1,5 @@
-
-Let $c$ and $n$ be real numbers.
-Let $f$ and $g$ represent functions of the independent variable $x$.
+>Let $c$ and $n$ be real numbers.
+>Let $f$ and $g$ represent functions of the independent variable $x$.
 
 | Rule                              | Function           | Derivative                                                                         |
 | --------------------------------- | ------------------ | ---------------------------------------------------------------------------------- |

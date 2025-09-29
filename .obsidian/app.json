@@ -5,7 +5,9 @@
   "userIgnoreFilters": [
     "Attachments/",
     "Templates/",
-    "Archives/"
+    "Archives/",
+    "Projects/",
+    "Excalidraw/"
   ],
   "pdfExportSettings": {
     "includeName": true,
