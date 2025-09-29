@@ -33,7 +33,8 @@ $s_1 = x_0\;\bar{x_1}$
 | **1**         | $\boxed1_2$     | 0           | $\boxed1_3$     | 0           |
 $s_2 = \bar{x_0} + \bar{x_2}\bar{x_1} + x_1 x_2$ 
 
-2. 2.12  A majority function will be 1 when an input contains more 1’s than 0’s in its
+2. 2.12  
+A majority function will be 1 when an input contains more 1’s than 0’s in its
 representation.
 Write the Boolean equation for the output F of a majority function which takes
 a 4-bit input $x_3\;x_2\;x_1\;x_0$.
@@ -69,6 +70,7 @@ $f = x_3 x_2 x_0 + x_3 x_1 x_0 + x_3 x_2 x_1 + x_2 x_1 x_0$
 
 3. 2.15(a,b,c)
 Use the rules of Boolean Algebra to simplify the following expressions.
+
 **a)** --- $A(B+\bar A C)$
 > $= AB+A\bar A C \quad=\quad AB+0 \quad=\quad \boxed{AB}$
   
@@ -81,6 +83,8 @@ Use the rules of Boolean Algebra to simplify the following expressions.
 > $\to\quad \boxed{X+W\bar{Y}}$
 
 4. 2.15(d,e,f)
+Use the rules of Boolean Algebra to simplify the following expressions.
+
 **d)** --- $\overline{ABC}+\overline{\bar{B}\bar{C}}$
 >$\to\quad \overline{ABC} + B + C$
 >$\to\quad \bar{A} + \bar{B} + \bar{C} + B + C$
@@ -98,6 +102,8 @@ Use the rules of Boolean Algebra to simplify the following expressions.
 > $\to\quad \boxed{a+\bar{b}}$
 
 5. 2.16
+Use factoring to simplify the following Boolean expressions given in canonical form.
+
 **a)** --- $\bar{x}yz+\bar{x}y\bar{z}+xyz$
 > $\to\quad yz(x+\bar{x})+\bar{x}y\bar{z}$
 > $\to\quad yz+\bar{x}y\bar{z}$
@@ -117,12 +123,12 @@ Use the rules of Boolean Algebra to simplify the following expressions.
 > $\to\quad \boxed{B\bar C+\bar BC}$
 
 **d)** --- $\bar A\bar B\bar CD+\bar AB\bar C\bar D+AB\bar C\bar D+\bar AB\bar CD+AB\bar CD+ABCD$
-        1              2                   3                  4                  5                  6
-		5 6                        2 3                      1 4
 > $\to\quad ABD(\bar CC) +B\bar C\bar D(\bar AA)+\bar A\bar CD(B\bar B)$
 > $\to\quad ABD+B\bar C\bar D+\bar A\bar CD$
 
 6. 3.1(a)
+For each of the following logic functions, write the truth table and the SOP
+and POS canonical forms.
 a) $F(a, b, c) = ab+a\bar c(b+\bar c)$
 
 | $a$ | $b$ | $c$ |     | $ab$ | $b+\bar c$ | $a\bar c$ | $a\bar c(b+\bar c)$ | $F$ |
@@ -136,13 +142,13 @@ a) $F(a, b, c) = ab+a\bar c(b+\bar c)$
 | $1$ | $1$ | $0$ |     | $1$  | $1$        | $1$       | $1$                 | $1$ |
 | $1$ | $1$ | $1$ |     | $1$  | $1$        | $0$       | $0$                 | $1$ |
 
-$\Sigma_m = a\bar b\bar c+ab\bar c+abc$
-$\Pi_M = (a+b+c)(a+b+\bar c)(a+\bar b+c)(a+\bar b\bar c)(\bar a\bar bc)$
+$\Sigma_m = \boxed{a\bar b\bar c+ab\bar c+abc}$
+$\Pi_M = \boxed{(a+b+c)(a+b+\bar c)(a+\bar b+c)(a+\bar b+\bar c)(\bar a+\bar b+c)}$
 
 6. 3.3
 Give the canonical SOP form of the logic function $F(A, B, C) = \Sigma_M (1, 2, 5, 6, 7)$
 
-| $a$ | $b$ | $c$ |     | F   |
+| $A$ | $B$ | $C$ |     | $F$ |
 | --- | --- | --- | --- | --- |
 | $0$ | $0$ | $0$ |     | 0   |
 | $0$ | $0$ | $1$ |     | 1   |
@@ -153,8 +159,64 @@ Give the canonical SOP form of the logic function $F(A, B, C) = \Sigma_M (1, 2, 
 | $1$ | $1$ | $0$ |     | 1   |
 | $1$ | $1$ | $1$ |     | 1   |
 
-$\Sigma_m = \bar a\bar bc+\bar ab\bar c+a\bar bc+ab\bar c+abc$
+$F = \boxed{\bar A\bar BC+\bar AB\bar C+A\bar BC+AB\bar C+ABC}$
 
-7. 3.5
-8. 3.17(assume F(a,b,c))
-9. 3.21 (just draw the truth table and write as a sum of minterms)
+7. 3.5 
+Give the SOP form of the function $F(A, B, C) =\Pi_M(0, 1, 5, 6, 7)$
+
+| $A$ | $B$ | $C$ |     | $F$ |
+| --- | --- | --- | --- | --- |
+| $0$ | $0$ | $0$ |     | 0   |
+| $0$ | $0$ | $1$ |     | 0   |
+| $0$ | $1$ | $0$ |     | 1   |
+| $0$ | $1$ | $1$ |     | 1   |
+| $1$ | $0$ | $0$ |     | 1   |
+| $1$ | $0$ | $1$ |     | 0   |
+| $1$ | $1$ | $0$ |     | 0   |
+| $1$ | $1$ | $1$ |     | 0   |
+$F= \boxed{\bar A B \bar C + \bar A BC + A \bar B \bar C}$
+
+7. 3.17(assume F(a,b,c))
+If $F = \Sigma_m(0, 2, 3, 6, 7)$, find the algebraic SOP form of $\bar F$.
+
+| $A$ | $B$ | $C$ |     | $F$ | $\bar F$ |                 |
+| --- | --- | --- | --- | --- | -------- | --------------- |
+| $0$ | $0$ | $0$ |     | 1   | 0        |                 |
+| $0$ | $0$ | $1$ |     | 0   | 1        | $\bar A\bar BC$ |
+| $0$ | $1$ | $0$ |     | 1   | 0        |                 |
+| $0$ | $1$ | $1$ |     | 1   | 0        |                 |
+| $1$ | $0$ | $0$ |     | 0   | 1        | $A\bar B\bar C$ |
+| $1$ | $0$ | $1$ |     | 0   | 1        | $A\bar BC$      |
+| $1$ | $1$ | $0$ |     | 1   | 0        |                 |
+| $1$ | $1$ | $1$ |     | 1   | 0        |                 |
+$F= \boxed{\bar A\bar BC+A\bar B\bar C+A\bar BC}$
+
+8. 3.21 (just draw the truth table and write as a sum of minterms)
+There are four adjacent parking spots in a particular parking area. There is a
+sensor mounted on each spot whose output is equal to $0$ when a car is
+occupying the spot and equal to $1$ otherwise (Note: we call this “active low”
+logic because logic-0 is asserted when something happens). Design a
+decoding system which will generate a $0$ output if and only if there are two
+or more adjacent vacant spots available. Draw the truth table for this problem.
+Include a diagram of the parking spots labeled with the variables you use in
+your truth table. Find the canonical SOP form for your logic function.
+
+| $x_3$ | $x_2$ | $x_1$ | $x_0$ | $F$ |
+| ----- | ----- | ----- | ----- | --- |
+| $0$   | $0$   | $0$   | $0$   | 1   |
+| $0$   | $0$   | $0$   | $1$   | 1   |
+| $0$   | $0$   | $1$   | $0$   | 1   |
+| $0$   | $0$   | $1^*$ | $1^*$ | 0   |
+| $0$   | $1$   | $0$   | $0$   | 1   |
+| $0$   | $1$   | $0$   | $1$   | 1   |
+| $0$   | $1^*$ | $1^*$ | $0$   | 0   |
+| $0$   | $1$   | $1^*$ | $1^*$ | 0   |
+| $1$   | $0$   | $0$   | $0$   | 1   |
+| $1$   | $0$   | $0$   | $1$   | 1   |
+| $1$   | $0$   | $1$   | $0$   | 1   |
+| $1$   | $0$   | $1^*$ | $1^*$ | 0   |
+| $1^*$ | $1^*$ | $0$   | $0$   | 0   |
+| $1^*$ | $1^*$ | $0$   | $1$   | 0   |
+| $1^*$ | $1^*$ | $1$   | $0$   | 0   |
+| $1^*$ | $1^*$ | $1$   | $1$   | 0   |
+$F=\Sigma_m(0,1,2,4,5,8,9,10)$
