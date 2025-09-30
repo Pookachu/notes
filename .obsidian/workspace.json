@@ -20,8 +20,37 @@
               "icon": "lucide-file",
               "title": "Exam 1 Practice Questions"
             }
+          },
+          {
+            "id": "fa9a6b10bdfcce54",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
+          },
+          {
+            "id": "49a495c180f4ee01",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -142,13 +171,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/CS - Homework/Exam 1 Practice Questions.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Exam 1 Practice Questions"
+              "title": "Outline"
             }
           },
           {
@@ -181,8 +209,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c024fa428030215",
+  "active": "49a495c180f4ee01",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Projects/EE - Homework/Homework 2.md",
+    "Projects/CS - Homework/Exam 1 Practice Questions.md",
+    "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
+    "Projects/Calc 1 - Homework/2025-09-22.md",
     "2025-09-26.md",
     "Projects/Calc 1 - Homework/Untitled.md",
     "Resources/Mathematics/Trigonometry/Trig Overview.md",
@@ -197,7 +230,6 @@
     "Resources/Mathematics/Calculus/Derivative Rules/Chain Rule.md",
     "Resources/Mathematics/Calculus/Derivative Rules",
     "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
-    "Projects/CS - Homework/Exam 1 Practice Questions.md",
     "Projects/CS - Homework/CS-2025-08-27.md",
     "Projects/Calc 1 - Homework/Quiz 4.md",
     "Projects/Calc 1 - Homework/2.6 interactive assignment.md",
@@ -207,10 +239,6 @@
     "Resources/Mathematics/Calculus/Continuity.md",
     "Resources/Mathematics/Calculus/Derivative.md",
     "Resources/Mathematics/Calculus/Integral.md",
-    "Resources/Computer Science/Data Structures/Array.md",
-    "Attachments/Tangent and Secant Line.png",
-    "Projects/Calc 1 - Homework/2.1-2.2 Homework & Practice.md",
-    "Projects/Calc 1 - Homework/2.5 interactive assignment.md",
-    "Projects/Calc 1 - Homework/2025-09-04.md"
+    "Attachments/Tangent and Secant Line.png"
   ]
 }
