@@ -8,35 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "298bf218d5f0434a",
+            "id": "49a495c180f4ee01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/CS - Homework/Exam 1 Practice Questions.md",
+                "file": "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Exam 1 Practice Questions"
+              "title": "3.1 Optional Practice"
             }
           },
           {
-            "id": "fa9a6b10bdfcce54",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
-            }
-          },
-          {
-            "id": "49a495c180f4ee01",
+            "id": "91a9e16d5129e8c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +35,7 @@
               "title": "Chain Rule"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Mathematics/Calculus/Chain Rule.md",
+                "file": "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Chain Rule"
+              "title": "Outline of 3.1 Optional Practice"
             }
           },
           {
@@ -213,6 +198,7 @@
   },
   "active": "49a495c180f4ee01",
   "lastOpenFiles": [
+    "Resources/Mathematics/Calculus/Chain Rule.md",
     "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
     "Projects/CS - Homework/Exam 1 Practice Questions.md",
     "Projects/CS - Homework/CS-2025-08-27.md",
@@ -225,7 +211,6 @@
     "Projects/Calc 1 - Homework/Untitled.md",
     "Resources/Mathematics/Trigonometry/Trig Overview.md",
     "Resources/Mathematics/Calculus/Derivative Rules.md",
-    "Resources/Mathematics/Calculus/Chain Rule.md",
     "Resources/Mathematics/Calculus/Untitled",
     "Resources/Mathematics/Calculus/Derivative Rules/Sum Rule.md",
     "Resources/Mathematics/Calculus/Derivative Rules/Power Rule.md",
