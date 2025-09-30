@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/EE - Homework/Homework 2.md",
+                "file": "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework 2"
+              "title": "3.1 Optional Practice"
             }
           },
           {
@@ -210,8 +210,9 @@
   },
   "active": "8cae0f4f3f60a32a",
   "lastOpenFiles": [
-    "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
     "Projects/EE - Homework/Homework 2.md",
+    "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
+    "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
     "Projects/Calc 1 - Homework/2.1-2.2 Homework & Practice.md",
     "Projects/Calc 1 - Homework/2.6 Optional Extra.md",
     "Projects/Calc 1 - Homework/3.1 interactive assignment.md",
@@ -239,7 +240,6 @@
     "Resources/Mathematics/Trigonometry/Main functions/Secant.md",
     "Resources/Mathematics/Trigonometry/Main functions/Tangent.md",
     "Resources/Mathematics/Trigonometry/Main functions/Cosine.md",
-    "Resources/Mathematics/Trigonometry/Main functions/Cotangent.md",
     "Projects/COMM - Homework/Untitled",
     "Resources/Electrical Engineering/Boolean Algebra",
     "Projects/COMM - Homework",
