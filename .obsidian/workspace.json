@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Quiz 3 Review"
             }
+          },
+          {
+            "id": "ad90f8ce779dd87a",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Calc 1 - Homework/Quiz 3 Review.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Quiz 3 Review"
+              "title": "Outline"
             }
           },
           {
@@ -181,15 +195,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "49a495c180f4ee01",
+  "active": "ad90f8ce779dd87a",
   "lastOpenFiles": [
-    "Projects/Calc 1 - Homework/Quiz 4.md",
+    "conflict-files-obsidian-git.md",
     "Projects/Calc 1 - Homework/Quiz 3 Review.md",
+    "Projects/Calc 1 - Homework/Quiz 4.md",
     "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
     "Resources/Mathematics/Calculus/Chain Rule.md",
     "Projects/CS - Homework/Exam 1 Practice Questions.md",
     "Projects/CS - Homework/CS-2025-08-27.md",
-    "conflict-files-obsidian-git.md",
     "Projects/Calc 1 - Homework/2.6 Optional Practice.md",
     "Projects/EE - Homework/Homework 2.md",
     "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
