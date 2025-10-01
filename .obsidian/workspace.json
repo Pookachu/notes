@@ -13,30 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Calc 1 - Homework/Quiz 3 Review.md",
+                "file": "Projects/EE - Homework/EE-2025-08-29.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quiz 3 Review"
-            }
-          },
-          {
-            "id": "ad90f8ce779dd87a",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
+              "title": "EE-2025-08-29"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -157,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Projects/EE - Homework/EE-2025-08-29.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of EE-2025-08-29"
             }
           },
           {
@@ -195,21 +181,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ad90f8ce779dd87a",
+  "active": "49a495c180f4ee01",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Projects/EE - Homework/Homework 1.md",
+    "Projects/EE - Homework/EE-2025-08-29.md",
+    "Projects/EE - Homework/Homework 2.md",
+    "Projects/COMM - Homework/Speech 1 - Introduction.md",
+    "Projects/Calc 1 - Homework/2025-09-26.md",
+    "Projects/Calc 1 - Homework/Untitled.md",
+    "Projects/Calc 1 - Homework/2025-09-04.md",
+    "Projects/Calc 1 - Homework/2025-09-22.md",
     "Projects/Calc 1 - Homework/Quiz 3 Review.md",
+    "conflict-files-obsidian-git.md",
     "Projects/Calc 1 - Homework/Quiz 4.md",
     "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
     "Resources/Mathematics/Calculus/Chain Rule.md",
     "Projects/CS - Homework/Exam 1 Practice Questions.md",
     "Projects/CS - Homework/CS-2025-08-27.md",
     "Projects/Calc 1 - Homework/2.6 Optional Practice.md",
-    "Projects/EE - Homework/Homework 2.md",
     "Projects/Calc 1 - Homework/3.2 Interactive Assignment.md",
-    "Projects/Calc 1 - Homework/2025-09-22.md",
-    "2025-09-26.md",
-    "Projects/Calc 1 - Homework/Untitled.md",
     "Resources/Mathematics/Trigonometry/Trig Overview.md",
     "Resources/Mathematics/Calculus/Derivative Rules.md",
     "Resources/Mathematics/Calculus/Untitled",
@@ -221,10 +211,6 @@
     "Resources/Mathematics/Calculus/Derivative Rules/Chain Rule.md",
     "Resources/Mathematics/Calculus/Derivative Rules",
     "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
-    "Projects/Calc 1 - Homework/2.6 interactive assignment.md",
-    "Projects/Calc 1 - Homework/2.6 Optional Extra.md",
-    "2025-09-22.md",
-    "Resources/Mathematics/Calculus/Limit.md",
     "Attachments/Tangent and Secant Line.png"
   ]
 }
