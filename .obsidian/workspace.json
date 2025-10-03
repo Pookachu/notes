@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Derivative of Exponential Functions"
             }
+          },
+          {
+            "id": "9f202acf3a68191b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -181,11 +196,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9fbd12a122170b20",
+  "active": "9e91b13d5bc01896",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Resources/Mathematics/Calculus/Derivative of Exponential Functions.md",
     "Resources/Mathematics/Calculus/Chain Rule.md",
     "Resources/Mathematics/Calculus/Derivative Rules.md",
-    "Resources/Mathematics/Calculus/Derivative of Exponential Functions.md",
     "Projects/EE - Homework/EE-2025-08-29.md",
     "Projects/EE - Homework/Homework 1.md",
     "Projects/EE - Homework/Homework 2.md",
@@ -195,7 +211,6 @@
     "Projects/Calc 1 - Homework/2025-09-04.md",
     "Projects/Calc 1 - Homework/2025-09-22.md",
     "Projects/Calc 1 - Homework/Quiz 3 Review.md",
-    "conflict-files-obsidian-git.md",
     "Projects/Calc 1 - Homework/Quiz 4.md",
     "Projects/Calc 1 - Homework/3.1 Optional Practice.md",
     "Projects/CS - Homework/Exam 1 Practice Questions.md",
