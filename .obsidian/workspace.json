@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "31e3c137504d244b",
@@ -207,8 +206,8 @@
   },
   "active": "9fbd12a122170b20",
   "lastOpenFiles": [
-    "Resources/Mathematics/Calculus/Derivative Rules.md",
     "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
+    "Resources/Mathematics/Calculus/Derivative Rules.md",
     "Resources/Mathematics/Algebra/Foundation/Basic Properties/Rules of Exponents.md",
     "Resources/Mathematics/Calculus/Derivative of Exponential Functions.md",
     "Projects/CS - Homework/Untitled.md",
