@@ -12,14 +12,14 @@
             "id": "9fbd12a122170b20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
+                "bFile": "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "3.3 interactive assignment"
+              "icon": "diff",
+              "title": "Diff: 3.3 interactive assignment"
             }
           }
         ]
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5,
-    "collapsed": true
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,11 +206,11 @@
   "active": "9fbd12a122170b20",
   "lastOpenFiles": [
     "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
+    "conflict-files-obsidian-git.md",
     "Resources/Mathematics/Calculus/Derivative Rules.md",
     "Resources/Mathematics/Algebra/Foundation/Basic Properties/Rules of Exponents.md",
     "Resources/Mathematics/Calculus/Derivative of Exponential Functions.md",
     "Projects/CS - Homework/Untitled.md",
-    "conflict-files-obsidian-git.md",
     "Resources/Mathematics/Calculus/Chain Rule.md",
     "Projects/EE - Homework/EE-2025-08-29.md",
     "Projects/EE - Homework/Homework 1.md",
