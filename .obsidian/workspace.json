@@ -12,14 +12,14 @@
             "id": "9fbd12a122170b20",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
-                "bFile": "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
-                "aRef": ""
+                "file": "Projects/Calc 1 - Homework/3.6 notes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 3.3 interactive assignment"
+              "icon": "lucide-file",
+              "title": "3.6 notes"
             }
           }
         ]
@@ -188,7 +188,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 320.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,9 +206,10 @@
   },
   "active": "9fbd12a122170b20",
   "lastOpenFiles": [
+    "Resources/Mathematics/Calculus/Derivative Rules.md",
+    "Projects/Calc 1 - Homework/3.6 notes.md",
     "Projects/Calc 1 - Homework/3.3 interactive assignment.md",
     "conflict-files-obsidian-git.md",
-    "Resources/Mathematics/Calculus/Derivative Rules.md",
     "Resources/Mathematics/Algebra/Foundation/Basic Properties/Rules of Exponents.md",
     "Resources/Mathematics/Calculus/Derivative of Exponential Functions.md",
     "Projects/CS - Homework/Untitled.md",
@@ -217,7 +219,6 @@
     "Projects/EE - Homework/Homework 2.md",
     "Projects/COMM - Homework/Speech 1 - Introduction.md",
     "Projects/Calc 1 - Homework/2025-09-26.md",
-    "Projects/Calc 1 - Homework/Untitled.md",
     "Projects/Calc 1 - Homework/2025-09-04.md",
     "Projects/Calc 1 - Homework/2025-09-22.md",
     "Projects/Calc 1 - Homework/Quiz 3 Review.md",
