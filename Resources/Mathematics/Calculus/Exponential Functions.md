@@ -4,7 +4,7 @@
 >${d\over dx}e^x = e^x$
   ${d\over dx}e^{f(x)} =e^{f(x)}\cdot f'(x)$
   ${d\over dx}(a^x)=a^x\cdot\ln a$
-  $\boxed{{d\over dx}(a^{f(x)}) = a^{f(x)}\cdot\ln a \cdot f'(x)}$*
+  $\boxed{{d\over dx}(a^{f(x)}) = a^{f(x)}\cdot\ln a \cdot f'(x)}$ *
  Write down what you have, multiply by $\ln$ of base, multiply by derivative of exponent
 
 Example: Find $f'(x)$ given $f(x)= 2\cdot8^{3x}+\cos(e^{-x})$
